@@ -1,0 +1,17 @@
+body{
+  overflow-x: hidden;
+}
+
+.port-item {
+    min-width: 0;
+  }
+  
+  @media only screen and (max-width:1150px) {
+    #bars {
+      flex-direction: column !important;
+    }
+    .port-item {
+      width: 100%;
+    }
+  }
+  
